@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Threadit</title>
+
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="/">
+                <div class="icon-container">
+                    <img class="logo" src="media/icon.png">
+                    <img class="logo-text" src="media/icon-text.svg">
+                </div>
+            </a>
+
+            <div class="search-bar">
+                <input type="text">
+            </div>
+
+            <div class="account-container">
+                <a class="get-app" href="https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=en">Get app</a>
+                <div class="login">
+                    <p>Log in</p>
+                </div>
+                
+                <div class="settings">
+                    <img src="media/settings.svg">
+                </div>
+            </div>
+        </header>
+
+            <!-- Main content feed-->
+        <main>
+            <div id="login-popup-overlay" class="login-container" display="">
+                <div class="login-popup-box">
+                    
+                    <!-- it works ig -->
+                    <div class="close-container">
+                        <div id="login-overlay-close" class="close">
+                            
+                            <img src="media/close.svg" width="25px" height="25px">
+                        </div>
+                    </div>
+                
+                    <form>
+                        <input type="text">
+                        
+                    </form>
+                </div>
+            </div>
+
+            <ul id="Content-feed">
+                <li class="Content-item">
+                        
+                </li>
+            </ul>
+        </main>
+
+        <script src="scripts/index.js"></script>
+    </body>
+</html>

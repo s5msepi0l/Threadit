@@ -1,0 +1,158 @@
+* {padding-top: 0; margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+:root {
+    --bg-main: #0e1113;
+    --border: #3e4142;
+    --search-bar: #2a3236;
+    --login-div: #181c1f;
+    
+    --close-btn: #2a3236;
+    --close-btn-hover: rgb(67, 78, 85);
+
+    --login-btn: #d93900;
+}
+
+body {
+    background-color: var(--bg-main);
+}
+
+header {
+    position: fixed;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 4rem;
+
+    background-color: var(--bg-main);
+    border: 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.icon-container {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 12rem;
+}
+
+.logo-text {
+    height: 1.5rem;
+}
+
+.logo {
+    height: 2.5rem;
+}
+
+.search-bar {
+    background-color: var(--search-bar);
+}
+
+.account-container {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+    width: 10rem;
+}
+
+.get-app {
+    background-color: var();
+}
+
+.login {
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 2.5rem;
+    width: 4.5rem;
+
+    border-radius: 1rem;
+
+    background-color: var(--login-btn);
+}
+
+main {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    top: 4rem;
+}
+
+.login-container {
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    top: 15rem;
+}
+
+.login-popup-box {
+    position: fixed;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--login-div);
+
+    border-radius: 1rem;
+
+    width: 35rem;
+    height: 45rem;
+}
+
+.close {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    right: 1rem;
+
+    background-color: var(--close-btn);
+}
+
+.close-container {
+    position: relative;
+    display: flex;
+
+    padding-top: 1rem;
+    justify-content: right;
+
+    width: 100%;
+}
+
+.close:hover {
+    background-color: var(--close-btn-hover);
+}
+
+ul {
+    list-style: none;
+}
+
+#Content-feed {
+    list-style: none;
+}
+
+.Content-item {
+    list-style: none;
+}
